@@ -130,3 +130,9 @@ public class AirlineReservationSystem extends JFrame implements ActionListener {
                     ticket = new EconomyTicket(customerName, startingCity, destinationCity, flightNumber, departureDate, flight.departureTime);
                     String info = ticket.reserveTicket();
                 }
+            } finally {
+                
+            } 
+        }
+    }
+}
